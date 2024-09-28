@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="resume-container">
+      <section id="Personal-Information">
+        <div class="informations">
+          <h1>NAME</h1>
+          <p>Contact: mail123@gmail.com | Phone: 123-456-7890</p>
+        </div>
+
+        <div class="image">
+          <img src="Image.jpg" alt="Image.jpg" />
+        </div>
+      </section>
+
+      <section id="education" style="display: none">
+        <h2>Education</h2>
+        <ul>
+          <li>Bachelor of Science in Computer Science, XYZ university, 2023</li>
+          <li>High School Diploma, ABC Hgh School, 2019</li>
+        </ul>
+      </section>
+      <button id="toggle-education-btn">Show Education</button>
+
+      <section id="skills" style="display: none">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+        </ul>
+      </section>
+      <button id="toggle-skills-btn">Show Skills</button>
+
+      <section id="work-experience" style="display: none">
+        <h2>Work-Experience</h2>
+        <ul>
+          <li>Intern, ABC Company (2023)</li>
+          <li>Freelance Web Developer (2022-2023)</li>
+        </ul>
+      </section>
+
+      <button id="toggle-work-btn">Show Work-Experience</button>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
